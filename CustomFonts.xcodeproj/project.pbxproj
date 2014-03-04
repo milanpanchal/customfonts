@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC47BB018C5A6EA008A37B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BAF18C5A6EA008A37B0 /* Foundation.framework */; };
+		EDC47BB218C5A6EA008A37B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BB118C5A6EA008A37B0 /* CoreGraphics.framework */; };
+		EDC47BB418C5A6EA008A37B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BB318C5A6EA008A37B0 /* UIKit.framework */; };
+		EDC47BBA18C5A6EA008A37B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BB818C5A6EA008A37B0 /* InfoPlist.strings */; };
+		EDC47BBC18C5A6EA008A37B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC47BBB18C5A6EA008A37B0 /* main.m */; };
+		EDC47BC018C5A6EA008A37B0 /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC47BBF18C5A6EA008A37B0 /* SAMAppDelegate.m */; };
+		EDC47BC318C5A6EA008A37B0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BC118C5A6EA008A37B0 /* Main_iPhone.storyboard */; };
+		EDC47BC618C5A6EA008A37B0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BC418C5A6EA008A37B0 /* Main_iPad.storyboard */; };
+		EDC47BC918C5A6EA008A37B0 /* SAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC47BC818C5A6EA008A37B0 /* SAMViewController.m */; };
+		EDC47BCB18C5A6EA008A37B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BCA18C5A6EA008A37B0 /* Images.xcassets */; };
+		EDC47BD218C5A6EA008A37B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BD118C5A6EA008A37B0 /* XCTest.framework */; };
+		EDC47BD318C5A6EA008A37B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BAF18C5A6EA008A37B0 /* Foundation.framework */; };
+		EDC47BD418C5A6EA008A37B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BB318C5A6EA008A37B0 /* UIKit.framework */; };
+		EDC47BDC18C5A6EA008A37B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BDA18C5A6EA008A37B0 /* InfoPlist.strings */; };
+		EDC47BDE18C5A6EA008A37B0 /* CustomFontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC47BDD18C5A6EA008A37B0 /* CustomFontsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC47BD518C5A6EA008A37B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC47BA418C5A6EA008A37B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC47BAB18C5A6EA008A37B0;
+			remoteInfo = CustomFonts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC47BAC18C5A6EA008A37B0 /* CustomFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC47BAF18C5A6EA008A37B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDC47BB118C5A6EA008A37B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDC47BB318C5A6EA008A37B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDC47BB718C5A6EA008A37B0 /* CustomFonts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFonts-Info.plist"; sourceTree = "<group>"; };
+		EDC47BB918C5A6EA008A37B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC47BBB18C5A6EA008A37B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC47BBD18C5A6EA008A37B0 /* CustomFonts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomFonts-Prefix.pch"; sourceTree = "<group>"; };
+		EDC47BBE18C5A6EA008A37B0 /* SAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
+		EDC47BBF18C5A6EA008A37B0 /* SAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
+		EDC47BC218C5A6EA008A37B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EDC47BC518C5A6EA008A37B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EDC47BC718C5A6EA008A37B0 /* SAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMViewController.h; sourceTree = "<group>"; };
+		EDC47BC818C5A6EA008A37B0 /* SAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMViewController.m; sourceTree = "<group>"; };
+		EDC47BCA18C5A6EA008A37B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDC47BD018C5A6EA008A37B0 /* CustomFontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC47BD118C5A6EA008A37B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDC47BD918C5A6EA008A37B0 /* CustomFontsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFontsTests-Info.plist"; sourceTree = "<group>"; };
+		EDC47BDB18C5A6EA008A37B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC47BDD18C5A6EA008A37B0 /* CustomFontsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFontsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC47BA918C5A6EA008A37B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC47BB218C5A6EA008A37B0 /* CoreGraphics.framework in Frameworks */,
+				EDC47BB418C5A6EA008A37B0 /* UIKit.framework in Frameworks */,
+				EDC47BB018C5A6EA008A37B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC47BCD18C5A6EA008A37B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC47BD218C5A6EA008A37B0 /* XCTest.framework in Frameworks */,
+				EDC47BD418C5A6EA008A37B0 /* UIKit.framework in Frameworks */,
+				EDC47BD318C5A6EA008A37B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC47BA318C5A6EA008A37B0 = {
+			isa = PBXGroup;
+			children = (
+				EDC47BB518C5A6EA008A37B0 /* CustomFonts */,
+				EDC47BD718C5A6EA008A37B0 /* CustomFontsTests */,
+				EDC47BAE18C5A6EA008A37B0 /* Frameworks */,
+				EDC47BAD18C5A6EA008A37B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC47BAD18C5A6EA008A37B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC47BAC18C5A6EA008A37B0 /* CustomFonts.app */,
+				EDC47BD018C5A6EA008A37B0 /* CustomFontsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC47BAE18C5A6EA008A37B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC47BAF18C5A6EA008A37B0 /* Foundation.framework */,
+				EDC47BB118C5A6EA008A37B0 /* CoreGraphics.framework */,
+				EDC47BB318C5A6EA008A37B0 /* UIKit.framework */,
+				EDC47BD118C5A6EA008A37B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC47BB518C5A6EA008A37B0 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				EDC47BBE18C5A6EA008A37B0 /* SAMAppDelegate.h */,
+				EDC47BBF18C5A6EA008A37B0 /* SAMAppDelegate.m */,
+				EDC47BC118C5A6EA008A37B0 /* Main_iPhone.storyboard */,
+				EDC47BC418C5A6EA008A37B0 /* Main_iPad.storyboard */,
+				EDC47BC718C5A6EA008A37B0 /* SAMViewController.h */,
+				EDC47BC818C5A6EA008A37B0 /* SAMViewController.m */,
+				EDC47BCA18C5A6EA008A37B0 /* Images.xcassets */,
+				EDC47BB618C5A6EA008A37B0 /* Supporting Files */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		EDC47BB618C5A6EA008A37B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC47BB718C5A6EA008A37B0 /* CustomFonts-Info.plist */,
+				EDC47BB818C5A6EA008A37B0 /* InfoPlist.strings */,
+				EDC47BBB18C5A6EA008A37B0 /* main.m */,
+				EDC47BBD18C5A6EA008A37B0 /* CustomFonts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC47BD718C5A6EA008A37B0 /* CustomFontsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC47BDD18C5A6EA008A37B0 /* CustomFontsTests.m */,
+				EDC47BD818C5A6EA008A37B0 /* Supporting Files */,
+			);
+			path = CustomFontsTests;
+			sourceTree = "<group>";
+		};
+		EDC47BD818C5A6EA008A37B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC47BD918C5A6EA008A37B0 /* CustomFontsTests-Info.plist */,
+				EDC47BDA18C5A6EA008A37B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC47BAB18C5A6EA008A37B0 /* CustomFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC47BE118C5A6EA008A37B0 /* Build configuration list for PBXNativeTarget "CustomFonts" */;
+			buildPhases = (
+				EDC47BA818C5A6EA008A37B0 /* Sources */,
+				EDC47BA918C5A6EA008A37B0 /* Frameworks */,
+				EDC47BAA18C5A6EA008A37B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomFonts;
+			productName = CustomFonts;
+			productReference = EDC47BAC18C5A6EA008A37B0 /* CustomFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC47BCF18C5A6EA008A37B0 /* CustomFontsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC47BE418C5A6EA008A37B0 /* Build configuration list for PBXNativeTarget "CustomFontsTests" */;
+			buildPhases = (
+				EDC47BCC18C5A6EA008A37B0 /* Sources */,
+				EDC47BCD18C5A6EA008A37B0 /* Frameworks */,
+				EDC47BCE18C5A6EA008A37B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC47BD618C5A6EA008A37B0 /* PBXTargetDependency */,
+			);
+			name = CustomFontsTests;
+			productName = CustomFontsTests;
+			productReference = EDC47BD018C5A6EA008A37B0 /* CustomFontsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC47BA418C5A6EA008A37B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Pantech;
+				TargetAttributes = {
+					EDC47BCF18C5A6EA008A37B0 = {
+						TestTargetID = EDC47BAB18C5A6EA008A37B0;
+					};
+				};
+			};
+			buildConfigurationList = EDC47BA718C5A6EA008A37B0 /* Build configuration list for PBXProject "CustomFonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC47BA318C5A6EA008A37B0;
+			productRefGroup = EDC47BAD18C5A6EA008A37B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC47BAB18C5A6EA008A37B0 /* CustomFonts */,
+				EDC47BCF18C5A6EA008A37B0 /* CustomFontsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC47BAA18C5A6EA008A37B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC47BC618C5A6EA008A37B0 /* Main_iPad.storyboard in Resources */,
+				EDC47BCB18C5A6EA008A37B0 /* Images.xcassets in Resources */,
+				EDC47BC318C5A6EA008A37B0 /* Main_iPhone.storyboard in Resources */,
+				EDC47BBA18C5A6EA008A37B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC47BCE18C5A6EA008A37B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC47BDC18C5A6EA008A37B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC47BA818C5A6EA008A37B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC47BC018C5A6EA008A37B0 /* SAMAppDelegate.m in Sources */,
+				EDC47BC918C5A6EA008A37B0 /* SAMViewController.m in Sources */,
+				EDC47BBC18C5A6EA008A37B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC47BCC18C5A6EA008A37B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC47BDE18C5A6EA008A37B0 /* CustomFontsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC47BD618C5A6EA008A37B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC47BAB18C5A6EA008A37B0 /* CustomFonts */;
+			targetProxy = EDC47BD518C5A6EA008A37B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC47BB818C5A6EA008A37B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC47BB918C5A6EA008A37B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDC47BC118C5A6EA008A37B0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC47BC218C5A6EA008A37B0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC47BC418C5A6EA008A37B0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC47BC518C5A6EA008A37B0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC47BDA18C5A6EA008A37B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC47BDB18C5A6EA008A37B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC47BDF18C5A6EA008A37B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC47BE018C5A6EA008A37B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC47BE218C5A6EA008A37B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFonts/CustomFonts-Prefix.pch";
+				INFOPLIST_FILE = "CustomFonts/CustomFonts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDC47BE318C5A6EA008A37B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFonts/CustomFonts-Prefix.pch";
+				INFOPLIST_FILE = "CustomFonts/CustomFonts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDC47BE518C5A6EA008A37B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomFonts.app/CustomFonts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFonts/CustomFonts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomFontsTests/CustomFontsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDC47BE618C5A6EA008A37B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomFonts.app/CustomFonts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomFonts/CustomFonts-Prefix.pch";
+				INFOPLIST_FILE = "CustomFontsTests/CustomFontsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC47BA718C5A6EA008A37B0 /* Build configuration list for PBXProject "CustomFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC47BDF18C5A6EA008A37B0 /* Debug */,
+				EDC47BE018C5A6EA008A37B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC47BE118C5A6EA008A37B0 /* Build configuration list for PBXNativeTarget "CustomFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC47BE218C5A6EA008A37B0 /* Debug */,
+				EDC47BE318C5A6EA008A37B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDC47BE418C5A6EA008A37B0 /* Build configuration list for PBXNativeTarget "CustomFontsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC47BE518C5A6EA008A37B0 /* Debug */,
+				EDC47BE618C5A6EA008A37B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC47BA418C5A6EA008A37B0 /* Project object */;
+}
