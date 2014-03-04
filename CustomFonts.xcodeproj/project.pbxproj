@@ -22,6 +22,7 @@
 		EDC47BD418C5A6EA008A37B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC47BB318C5A6EA008A37B0 /* UIKit.framework */; };
 		EDC47BDC18C5A6EA008A37B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BDA18C5A6EA008A37B0 /* InfoPlist.strings */; };
 		EDC47BDE18C5A6EA008A37B0 /* CustomFontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC47BDD18C5A6EA008A37B0 /* CustomFontsTests.m */; };
+		EDC47BE818C5A840008A37B0 /* cinnamon cake.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDC47BE718C5A840008A37B0 /* cinnamon cake.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EDC47BD918C5A6EA008A37B0 /* CustomFontsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFontsTests-Info.plist"; sourceTree = "<group>"; };
 		EDC47BDB18C5A6EA008A37B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDC47BDD18C5A6EA008A37B0 /* CustomFontsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFontsTests.m; sourceTree = "<group>"; };
+		EDC47BE718C5A840008A37B0 /* cinnamon cake.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cinnamon cake.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				EDC47BC718C5A6EA008A37B0 /* SAMViewController.h */,
 				EDC47BC818C5A6EA008A37B0 /* SAMViewController.m */,
 				EDC47BCA18C5A6EA008A37B0 /* Images.xcassets */,
+				EDC47BE718C5A840008A37B0 /* cinnamon cake.ttf */,
 				EDC47BB618C5A6EA008A37B0 /* Supporting Files */,
 			);
 			path = CustomFonts;
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC47BC618C5A6EA008A37B0 /* Main_iPad.storyboard in Resources */,
+				EDC47BE818C5A840008A37B0 /* cinnamon cake.ttf in Resources */,
 				EDC47BCB18C5A6EA008A37B0 /* Images.xcassets in Resources */,
 				EDC47BC318C5A6EA008A37B0 /* Main_iPhone.storyboard in Resources */,
 				EDC47BBA18C5A6EA008A37B0 /* InfoPlist.strings in Resources */,

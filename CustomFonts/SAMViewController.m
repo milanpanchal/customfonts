@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self listAllFornts];
+    
+    self.label.font = [UIFont fontWithName:@"cinnamoncake" size:12.00f];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +30,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)listAllFornts {
+    
+    for (NSString* family in [UIFont familyNames]) {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family]) {
+            NSLog(@"  %@", name);
+        }
+    }
+}
 @end
